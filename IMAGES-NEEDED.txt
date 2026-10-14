@@ -1,0 +1,68 @@
+FILES THE SITE EXPECTS
+======================
+Put images in  images/  and videos in  videos/  using exactly these names.
+Until a file exists, its place on the site shows a striped box with the file name.
+Videos: mp4 (H.264), as small as you can make them. Tile loops and 'In motion' clips play without sound.
+Lines starting with OPTIONAL can be skipped.
+
+images/home-chaplin.jpg                          Home tile: The Charlie Chaplin Gold Collection (landscape 4:3, ~1600x1200)
+videos/home-chaplin.mp4                          OPTIONAL short muted loop for the home tile: The Charlie Chaplin Gold Collection
+images/home-the-word.jpg                         Home tile: The Word (landscape 4:3, ~1600x1200)
+videos/home-the-word.mp4                         OPTIONAL short muted loop for the home tile: The Word
+images/home-faceless.jpg                         Home tile: Faceless (landscape 4:3, ~1600x1200)
+videos/home-faceless.mp4                         OPTIONAL short muted loop for the home tile: Faceless
+images/home-illustrations.jpg                    Home tile: Illustrations (landscape 4:3, ~1600x1200)
+videos/home-illustrations.mp4                    OPTIONAL short muted loop for the home tile: Illustrations
+images/chaplin-cover.jpg                         The Charlie Chaplin Gold Collection: cover image (16:9, ~2000x1125)
+images/chaplin-character-1.jpg                   The Charlie Chaplin Gold Collection: character 1
+images/chaplin-character-2.jpg                   The Charlie Chaplin Gold Collection: character 2
+images/chaplin-character-3.jpg                   The Charlie Chaplin Gold Collection: character 3
+videos/chaplin.mp4                               The Charlie Chaplin Gold Collection: full video (mp4, H.264)
+images/chaplin-poster.jpg                        The Charlie Chaplin Gold Collection: video poster frame (16:9)
+images/chaplin-process-1.jpg                     The Charlie Chaplin Gold Collection: process step 1
+images/chaplin-process-2.jpg                     The Charlie Chaplin Gold Collection: process step 2
+images/chaplin-process-3.jpg                     The Charlie Chaplin Gold Collection: process step 3
+images/chaplin-process-4.jpg                     The Charlie Chaplin Gold Collection: process step 4
+images/chaplin-mockup-1.jpg                      The Charlie Chaplin Gold Collection: mockup 1
+images/chaplin-mockup-2.jpg                      The Charlie Chaplin Gold Collection: mockup 2
+images/the-word-cover.jpg                        The Word: cover image (16:9, ~2000x1125)
+images/the-word-character-1.jpg                  The Word: character 1
+images/the-word-character-2.jpg                  The Word: character 2
+images/the-word-character-3.jpg                  The Word: character 3
+videos/the-word.mp4                              The Word: full video (mp4, H.264)
+images/the-word-poster.jpg                       The Word: video poster frame (16:9)
+images/the-word-process-1.jpg                    The Word: process step 1
+images/the-word-process-2.jpg                    The Word: process step 2
+images/the-word-process-3.jpg                    The Word: process step 3
+images/the-word-process-4.jpg                    The Word: process step 4
+images/the-word-mockup-1.jpg                     The Word: mockup 1
+images/the-word-mockup-2.jpg                     The Word: mockup 2
+images/faceless-cover.jpg                        Faceless: cover image (16:9, ~2000x1125)
+images/faceless-character-1.jpg                  Faceless: character 1
+images/faceless-character-2.jpg                  Faceless: character 2
+images/faceless-character-3.jpg                  Faceless: character 3
+videos/faceless.mp4                              Faceless: full video (mp4, H.264)
+images/faceless-poster.jpg                       Faceless: video poster frame (16:9)
+images/faceless-process-1.jpg                    Faceless: process step 1
+images/faceless-process-2.jpg                    Faceless: process step 2
+images/faceless-process-3.jpg                    Faceless: process step 3
+images/faceless-process-4.jpg                    Faceless: process step 4
+images/faceless-mockup-1.jpg                     Faceless: mockup 1
+images/faceless-mockup-2.jpg                     Faceless: mockup 2
+images/warcraft-arthas-1.jpg                     Illustration: Warcraft III / Arthas, the knight
+images/warcraft-arthas-2.jpg                     Illustration: Warcraft III / Arthas, after the fall
+images/warcraft-arthas-3.jpg                     Illustration: Warcraft III / Arthas, the Lich King
+images/warcraft-rexxar-1.jpg                     Illustration: Warcraft III / Rexxar and his bear
+images/fnaf4-plushtrap.jpg                       Illustration: Five Nights at Freddy's / Plushtrap
+images/fnaf4-nightmare-freddy.jpg                Illustration: Five Nights at Freddy's / Nightmare Freddy
+images/fnaf4-freddy.jpg                          Illustration: Five Nights at Freddy's / Freddy
+images/fnaf4-nightmare-marionette.jpg            Illustration: Five Nights at Freddy's / Nightmare Marionette
+images/portrait-tolkien.jpg                      Illustration: Portraits / J. R. R. Tolkien
+images/portrait-scorsese.jpg                     Illustration: Portraits / Martin Scorsese
+images/portrait-hitchcock.jpg                    Illustration: Portraits / Alfred Hitchcock
+images/portrait-kubrick.jpg                      Illustration: Portraits / Stanley Kubrick
+videos/illustrations-motion-1.mp4                Illustrations: short muted loop
+videos/illustrations-motion-2.mp4                Illustrations: short muted loop
+images/resume-photo.jpg                          Résumé photo (portrait 4:5, ~1200x1500)
+assets/resume.pdf                                OPTIONAL résumé PDF: when this file exists, rebuild and the Download button appears
+images/about-photo.jpg                           About page photo (portrait 4:5, ~1200x1500)

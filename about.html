@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — Assan Alan</title>
+<meta name="description" content="About Assan Alan, animation director &amp; artist.">
+<meta property="og:title" content="About — Assan Alan">
+<meta property="og:description" content="About Assan Alan, animation director &amp; artist.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23ffffff'/%3E%3Ctext x='32' y='45' font-size='40' text-anchor='middle' font-family='Georgia,serif' fill='%231c1c1c'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<!-- Подключение библиотеки EmailJS и инициализация -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "h4jz2vt9wrfwd3DUz", // Замените на ваш реальный Public Key из EmailJS
+      });
+   })();
+</script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">Assan Alan</a>
+  <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span></button>
+  <nav aria-label="Main">
+    <ul class="nav">
+      <li class="nav-item"><a class="nav-link" href="index.html">My Projects</a>
+        <div class="dropdown">
+<a href="chaplin.html">The Charlie Chaplin Gold Collection</a>
+<a href="the-word.html">The Word</a>
+<a href="faceless.html">Faceless</a>
+<a href="happy-new-year.html">Happy New Year!</a>
+        </div>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="illustrations.html">Illustrations</a></li>
+      <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+      <li class="nav-item"><a class="nav-link" href="resume.html">Résumé</a></li>
+      <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <div class="split">
+    <div class="portrait"><img src="images/about-photo.jpg" alt="Assan Alan"></div>
+    <div>
+      <h1>Hi!</h1>
+<p>Hello, my name is Alan. I have been passionate about cinema in general, and especially animation, since I was five years old.</p>
+<p>I studied Animation Directing at the Kazakh National University of Arts named after Kulash Baiseitova.</p>
+<p>Among my favorite directors are Martin Scorsese, Alfred Hitchcock and Stanley Kubrick.</p>
+
+      <h2>Contact</h2>
+      <p class="contact"><a class="mail" href="mailto:directedbyassanalan@gmail.com?subject=From%20Portfolio">directedbyassanalan@gmail.com</a></p>
+
+      <h2>Social</h2>
+      <ul class="social left" data-social>
+        <li><a href="mailto:directedbyassanalan@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><polyline points="3.5,6.5 12,13 20.5,6.5"/></svg></a></li>
+      </ul>
+
+      <h2>Write to me</h2>
+
+      <form class="form" id="contact-form" data-mailto="directedbyassanalan@gmail.com">
+        <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div><label for="f-name">Name</label><input id="f-name" name="name" type="text" required autocomplete="given-name"></div>
+        <div><label for="f-last">Last name</label><input id="f-last" name="lastname" type="text" autocomplete="family-name"></div>
+        <div class="full"><label for="f-email">E-mail</label><input id="f-email" name="email" type="email" required autocomplete="email"></div>
+        <div class="full"><label for="f-subject">Subject</label><input id="f-subject" name="subject" type="text"></div>
+        <div class="full"><label for="f-msg">Your message</label><textarea id="f-msg" name="message" required></textarea></div>
+        <div class="full"><button class="btn" type="submit">Send</button></div>
+      </form>
+      <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+    </div>
+  </div>
+</main>
+<footer class="site-footer">
+  <ul class="footer-links">
+<li><a href="chaplin.html">The Charlie Chaplin Gold Collection</a></li>
+<li><a href="the-word.html">The Word</a></li>
+<li><a href="faceless.html">Faceless</a></li>
+<li><a href="happy-new-year.html">Happy New Year!</a></li>
+<li><a href="illustrations.html">Illustrations</a></li>
+  </ul>
+  <ul class="social" data-social>
+<li><a href="mailto:directedbyassanalan@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><polyline points="3.5,6.5 12,13 20.5,6.5"/></svg></a></li>
+  </ul>
+  <div class="copyright">Assan Alan &nbsp;·&nbsp; Animation Director &amp; Artist</div>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
