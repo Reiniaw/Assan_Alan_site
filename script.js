@@ -30,22 +30,9 @@
   }
   document.querySelectorAll("img").forEach(watchImg);
 
-/* ---- Videos check ---- */
+/* ---- Videos ---- */
   document.querySelectorAll("video").forEach(function (v) {
-    var optional = v.hasAttribute("data-optional");
-    var src = v.getAttribute("src") || (v.querySelector("source") || {}).src || "";
-    function fail() {
-      if (optional) { v.remove(); return; }
-      var ph = makePlaceholder(v.getAttribute("data-label") || src);
-      if (v.parentNode) v.parentNode.replaceChild(ph, v);
-    }
-    if (!src) {
-      fail();
-      return;
-    }
-    v.addEventListener("error", function () {
-      if (!optional) fail();
-    }, { once: true });
+    // Больше никаких проверок и ошибок — просто даем видео работать
   });
 
   /* ---- Lightbox for gallery images ---- */
