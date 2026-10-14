@@ -30,8 +30,7 @@
   }
   document.querySelectorAll("img").forEach(watchImg);
 
-  /* Videos: optional preview clips on tiles are silently dropped when the file is missing;
-     normal videos show a placeholder instead. */
+/* ---- Videos check ---- */
   document.querySelectorAll("video").forEach(function (v) {
     var optional = v.hasAttribute("data-optional");
     var src = v.getAttribute("src") || (v.querySelector("source") || {}).src || "";
@@ -40,16 +39,13 @@
       var ph = makePlaceholder(v.getAttribute("data-label") || src);
       if (v.parentNode) v.parentNode.replaceChild(ph, v);
     }
-    var done = false;
-    function failOnce() { if (!done) { done = true; fail(); } }
-    function check() { if (v.error || v.networkState === 3) failOnce(); }
-    v.addEventListener("error", failOnce, { once: true });
-    var s = v.querySelector("source");
-    if (s) s.addEventListener("error", failOnce, { once: true });
-    /* the error may already have happened before this script ran */
-    check();
-    window.addEventListener("load", check);
-    setTimeout(check, 1500);
+    if (!src) {
+      fail();
+      return;
+    }
+    v.addEventListener("error", function () {
+      if (!optional) fail();
+    }, { once: true });
   });
 
   /* ---- Lightbox for gallery images ---- */
